@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Proyecto Integrador</title>
+       
+        <link rel="shortcut icon" href="logo.ico" type="image/x-icon">
+        
+        <script src="https://kit.fontawesome.com/c538ed8188.js" crossorigin="anonymous"></script>
+         
+         <link rel="stylesheet" href="./css/estilos.css">
+        
+    </head>
+    
+    <body>
+       <header class="header">
+            <div class="headerNav">
+                <div class="contenedorLogo">
+                    <a href="#">
+                        <img src="./assets/img/codoacodo.png" alt="Logo">
+                    </a>
+                    <h2>Conf Bs As</h2>
+                
+                </div>
+                    <nav class="navegacion">
+                        <ul class="listaNav">
+                            <li><a class="linkNav2" href="#laConferencia">La conferencia</a></li>
+                            <li><a class="linkNav" href="#losOradores">Los oradores</a></li>
+                            <li><a class="linkNav" href="#lugarYfecha">El lugar y la fecha</a></li>
+                            <li><a class="linkNav" href="#convierteteEnOrador">Conviértete en orador</a></li>
+                            <li><a class="linkNav3" href="./pages/comprar_tickets.html">Comprar tickets</a></li>
+                        </ul>
+                    </nav>
+            </div>  
+            <section id ="laConferencia" class="laConferencia ">
+               <div class="contenedorTextConf">
+                    <h1>Conf Bs As</h1>
+                    <p class="parrafoConferencia">Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos
+                        que están creando el futuro de Internet. Ven a conocer a mienbros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!
+                    </p>
+                    <div>
+                        <a href="#convierteteEnOrador" class="laconfboton1">Quiero ser orador</a>
+                        <a href="./pages/comprar_tickets.html" class="laconfboton2">Comprar tickets</a>
+                    </div>  
+               </div>
+            </section>
+       </header>
+       <main>
+            <section id="losOradores" class="sectionOradores">
+                <h2 class="tituloRadores"><span>CONOCE A LOS</span> <br> ORADORES</h2>
+                <div class="padreCards">
+                    <div class="card" id="cardUno">
+                        <img src="./assets/img/steve.jpg" alt="Steve Jobs">
+                        <div class="cardBody">
+                            <div class="cardTags">
+                                <h4 class="tituloCardBody1">Javascript</h4>
+                                <h4 class="tituloCardBody2">React</h4>
+                            </div>
+                            <h2>Steve Jobs</h2>
+                            <p>Fue un empresario, diseñador industrial, magnate empresarial, propietario de medios e inversor estadounidense. Fue cofundador y presidente ejecutivo de Apple y máximo accionista individual de The Walt Disney Company.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/img/bill.jpg" alt="Bill Gates">
+                        <div class="cardBody">
+                            <div class="cardTags">
+                                <h4 class="tituloCardBody1">Javascript</h4>
+                                <h4 class="tituloCardBody2">React</h4>
+                            </div>
+                            <h2>Bill Gates</h2>
+                            <p>Es un magnate empresarial, desarrollador de software, inversor, autor y filántropo estadounidense. Es cofundador de Microsoft, junto con su difunto amigo de la infancia Paul Allen.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/img/ada.jpeg" alt="Ada Lovelace">
+                        <div class="cardBody">
+                            <div class="cardTags">
+                                <h4 class="tituloCardBody3">Negocios</h4>
+                                <h4 class="tituloCardBody4">Startups</h4>
+                            </div>
+                            <h2>Ada Lovelace</h2>
+                            <p>Fue una matemática y escritora británica, célebre sobre todo por su trabajo acerca de la computadora mecánica de uso general de Charles Babbage, la denominada máquina analítica.</p>
+                        </div>     
+                    </div>
+                </div>
+            </section>
+            <section id="lugarYfecha" class="lugarFecha">
+                <div class="left">
+                </div>
+                <div class="right">
+                    <h2>Bs As - Octubre</h2>
+                    <p>Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos. Honolulu es 
+                        la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área
+                        urbana en la costa sureste de la isla de Oah, la ciudad y el condado de Honolulu han formado una ciudad-condado 
+                        consolidada que cubre toda la ciudad (aproximandamente 600 Km<sup>2</sup> de superficie).
+                    </p>
+                    <a href="" class="boton3">Conocé Más</a>
+                </div>
+            </section>
+            <section id="convierteteEnOrador" class="formularioOrador">
+                <h4>CONVIÉRTETE EN UN</h4>
+                <h2><span>ORADOR</span></h2>
+                <p>Anótate como orador para dar una <u class="punticos">charla ignite</u>. Cuéntanos de qué quieres hablar!</p><br>
+                <form action="" autocomplete="on">
+                    <div>
+                        <input  class="inputNA" type="text" placeholder="Nombre" required>
+                        <input class="inputNA" type="text" placeholder="Apellido" required>
+                    </div>
+                    <div>
+                        <textarea class="textArea" name="" id="" cols="44" rows="6" placeholder="Sobre qué quieres hablar?" required></textarea>
+                    </div>
+                    <p class="textbeforeareatext">Recuerda incluir un título para tu charla</p>
+                    <div>
+                        <input type="submit" value="Enviar" class="formSubmit">
+                    </div>
+                </form>
+            </section>
+       </main>
+     
+       <footer class="footer">
+            <div class="contenedorFooter">
+                <a href="">Preguntas <br>frecuentes</a>
+                <a href="">Contáctanos</a>
+                <a href="">Prensa</a>
+                <a href="">Conferencias</a>
+                <a href="">Términos y <br>condiciones</a>
+                <a href="">Privacidad</a>
+                <a href="">Estudiantes</a>
+                <a href=""><i class="fa-brands fa-instagram iconInstagram"></i></a>
+                <a href=""><img class="wsp" src="./assets/img/whatsapp.png" alt="what"></a>
+               
+            </div>
+       </footer>
+
+    </body>
+</html>
